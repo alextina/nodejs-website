@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%=title%>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+    <%- include('partials/navigation') %>
+        <section class="container container-height p-2 d-flex flex-column justify-content-center align-items-center">
+            <h1 lass="p-5">How to Start</h1>
+            <p class="text-justify">To get started with Node.js, follow these steps:</p>
+            <ul class="text-justify">
+                <li><strong>Installation:</strong> Download and install Node.js from the official website (https://nodejs.org/). This
+                    will also install npm (Node Package Manager), which is essential for managing your project's
+                    dependencies.</li>
+                <li><strong>Creating a Project:</strong> Create a directory for your project and run npm init in the command line to
+                    create a package.json file that contains information about your project and its dependencies.</li>
+                <li><strong>Installing Dependencies:</strong> Use npm install to install the necessary dependencies for your project. You
+                    can install modules like Express.js to create web servers and other useful packages.</li>
+                <li><strong>Writing Code:</strong> Create your JavaScript files and start writing your code using Node.js's capabilities.
+                    You can create servers, define routes, handle requests, and more.</li>
+                <li><strong>Execution:</strong> Run your application using the node filename.js command in the command line.</li>
+            </ul>
+        </section>
+        <%- include('partials/footer') %> <%- include('partials/scripts') %>
+</body>
+
+</html>

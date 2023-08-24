@@ -1,0 +1,36 @@
+.container-height {
+    min-height: 100vh !important;
+}
+
+.row-with-gap.row-with-gap {
+    justify-content: center;
+    width: 50% !important;
+    flex-wrap: nowrap !important;
+    gap: 1em !important;
+}
+
+.btn-width {
+    width: 6em !important;
+}
+
+.text-justify {
+    margin: 1em;
+    max-width: 750px;
+    text-align: justify !important;
+}
+
+img {
+    min-width: 6em;
+    max-width: 15em;
+    padding-bottom: 3em;
+}
+
+section a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a {
+    color: white !important;
+}

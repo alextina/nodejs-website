@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    <%=title%>
+  </title>
+  <%- include('partials/head') %>
+</head>
+
+<body>
+  <%- include('partials/navigation') %>
+    <section class="container container-height p-2 d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/nodejs.png" alt="nodejs-logo" class="img" />
+      </div>
+      <div class="d-flex row-with-gap">
+        <a href="/about" class="btn btn-dark btn-width hover-success">About</a>
+        <a href="/why" class="btn btn-dark btn-width">Why</a>
+        <a href="/start" class="btn btn-dark btn-width">Start</a>
+      </div>
+      <br>
+      <p class="text-justify">
+        This website has provided me with a valuable opportunity to explore the capabilities of <a
+          href="https://nodejs.org/es" target="_blank">Node.js</a>,
+        <a href="https://expressjs.com/es/" target="_blank">Express</a>,
+        <a href="https://ejs.co/" target="_blank">EJS</a>, and
+        <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
+        complemented by tailored CSS styles. The Node.js content has been crafted with the assistance of
+        <a href="https://chat.openai.com/" target="_blank">CHATGPT-3.5</a>.
+      </p>
+    </section>
+    <%- include('partials/footer') %> <%- include('partials/scripts') %>
+</body>
+
+</html>

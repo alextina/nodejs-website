@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%=title%>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+    <%- include('partials/navigation') %>
+        <section class="container container-height p-2 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="p-2">Why NodeJs</h1>
+            <p class="text-justify">
+                Node.js has become a popular choice among developers for several
+                reasons:
+            </p>
+            <ul class="text-justify">
+                <li>
+                    <strong>Unified Language:</strong> It allows developers to use JavaScript on both the
+                    client and server sides, simplifying workflows and code reuse.
+                </li>
+                <li>
+                    <strong>Efficiency:</strong> Node.js's asynchronous and event-driven architecture
+                    enables handling many simultaneous connections without blocking,
+                    resulting in efficient and high-performance applications.
+                </li>
+                <li>
+                    <strong>Scalability:</strong> Node.js is highly scalable due to its non-blocking
+                    nature. It can handle a large number of concurrent requests
+                    efficiently.
+                </li>
+                <li>
+                    <strong>Thriving Community and Ecosystem:</strong> Node.js boasts an active community
+                    of developers and an ecosystem of open-source modules and packages,
+                    making it easy to integrate additional functionality.
+                </li>
+                <li>
+                    <strong>Rapid Development:</strong> The familiar JavaScript syntax and the ability to
+                    share code on both client and server sides allow for faster
+                    development and an agile workflow.
+                </li>
+            </ul>
+        </section>
+        <%- include('partials/footer') %> <%- include('partials/scripts') %>
+</body>
+
+</html>

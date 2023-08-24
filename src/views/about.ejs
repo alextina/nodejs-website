@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+    <%- include('partials/head') %>
+  </head>
+
+  <body>
+    <%- include('partials/navigation') %>
+    <section
+    class="container container-height p-2 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1 class="p-2">About NodeJs</h1>
+      <p class="text-justify">
+        Node.js is an open-source runtime environment based on the Google Chrome
+        V8 engine. It was created by Ryan Dahl in 2009 with the aim of allowing
+        developers to use JavaScript on both the client and server sides. Unlike
+        traditional JavaScript execution in a web browser, Node.js enables
+        running JavaScript code on the server, providing the ability to build
+        scalable and efficient web applications. Node.js utilizes an
+        asynchronous and event-driven approach to handle input/output
+        operations. This means it can handle multiple connections simultaneously
+        without blocking the main process, resulting in high-performance
+        applications and rapid response times.
+      </p>
+    </section>
+    <%- include('partials/footer') %> <%- include('partials/scripts') %>
+  </body>
+</html>

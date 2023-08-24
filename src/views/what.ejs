@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%=title%>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+    <%- include('partials/navigation') %>
+        <section class="container container-height p-2 d-flex flex-column justify-content-center align-items-center">
+            <h1 lass="p-5">What You Can Do with Node</h1>
+            <p class="text-justify">
+                Node.js is versatile and can be used for various use cases:
+            </p>
+            <ul class="text-justify">
+                <li>
+                    <strong>Web Application Development:</strong> You can create full-fledged and scalable
+                    web applications using Node.js along with frameworks like Express.js.
+                </li>
+                <li>
+                    <strong>APIs and Microservices:</strong> Node.js is ideal for building APIs and
+                    microservices that provide data and functionality to different parts
+                    of an application.
+                </li>
+                <li>
+                    <strong>Data Streaming:</strong> You can implement real-time data streaming, which is
+                    useful for chat applications, live streaming, and more.
+                </li>
+                <li>
+                    <strong>File Processing:</strong> Node.js is useful for manipulating files and
+                    performing read and write operations in the file system.
+                </li>
+                <li>
+                    <strong>Network Applications:</strong> You can develop network applications such as
+                    proxy servers, chat servers, and real-time gaming servers.
+                </li>
+            </ul>
+        </section>
+        <%- include('partials/footer') %> <%- include('partials/scripts') %>
+</body>
+
+</html>
